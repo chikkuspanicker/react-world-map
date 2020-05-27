@@ -1,10 +1,11 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import './App.css';
 import Map from './Map';
 import Modal from './Modal';
 
 // window.$ = $;
 function App() {
+  const [clickedRegion, setClickedRegion] = useState('')
   let changeArea = (e) => {
     window.$('#exampleModal').modal({
       keyboard: false
@@ -13,19 +14,25 @@ function App() {
       area.classList.remove('map-selected');
       area.classList.add('map-unselected');
     })
+    setClickedRegion(e.target.value);
     switch (e.target.value) {
       case 'North America(NA)':
         document.getElementById("NA").classList.add('map-selected');
         break;
       case 'Africa(AF)':
+        document.getElementById("AF").classList.add('map-selected');
         break;
       case 'South America(SA)':
+        document.getElementById("SA").classList.add('map-selected');
         break;
       case 'Europe(EU)':
+        document.getElementById("EU").classList.add('map-selected');
         break;
       case 'Asia Pacific(AP)':
+        document.getElementById("AS").classList.add('map-selected');
         break;
       case 'Oceania(OC)':
+        document.getElementById("OC").classList.add('map-selected');
         break;
       default:
         break;
@@ -53,7 +60,7 @@ function App() {
           <Map />
         </div>
       </section>
-      <Modal />
+      <Modal header={clickedRegion} />
     </div>
   );
 }

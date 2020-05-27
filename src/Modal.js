@@ -2,14 +2,14 @@ import React from 'react'
 import user from './img/user.jpeg';
 import user_lady from './img/user-lady.png'
 
-export default function Modal() {
+export default function Modal({ header }) {
     return (
         <div className="modal fade" id="exampleModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog" role="document">
                 <div className="modal-content">
                     <div className="modal-header">
-                        <h5 className="modal-title" id="exampleModalLabel">
-                            Leadership in North America
+                        <h5 className="modal-title" id="leadership-header">
+                            Leadership in {header}
                         </h5>
                         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
