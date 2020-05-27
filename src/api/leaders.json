@@ -1,0 +1,97 @@
+[
+  {
+    "area": "na",
+    "leaders": [
+      {
+        "name": "Joe Tocco",
+        "title": "Head Of North America P&C",
+        "gender": "male",
+        "img_url": ""
+      },
+      {
+        "name": "Domna Nadeau",
+        "title": "COO North America",
+        "gender": "male",
+        "img_url": ""
+      },
+      {
+        "name": "Susan Veliattta",
+        "title": "Head Of Middle Office,North America",
+        "gender": "female",
+        "img_url": ""
+      }
+    ]
+  },
+  {
+    "area": "eu",
+    "leaders": [
+      {
+        "name": "Bruno Lavel",
+        "title": "Regional Leader, Europe",
+        "gender": "male",
+        "img_url": ""
+      },
+      {
+        "name": "Jullen Gudnot",
+        "title": "Country Leader, France",
+        "gender": "male",
+        "img_url": ""
+      },
+      {
+        "name": "Enrique Lopez",
+        "title": "Coo, Europe",
+        "gender": "male",
+        "img_url": ""
+      }
+    ]
+  },
+  {
+    "area": "as",
+    "leaders": [
+      {
+        "name": "Craig Langham",
+        "title": "Regional Leader, APAC",
+        "gender": "male",
+        "img_url": ""
+      },
+      {
+        "name": "Zoe Xie",
+        "title": "Client & Distribution Leader",
+        "gender": "female",
+        "img_url": ""
+      }
+    ]
+  },
+  {
+    "area": "sa",
+    "leaders": [
+      {
+        "name": "Reneto Rodrigues",
+        "title": "Regional Leader LAT AM",
+        "gender": "male",
+        "img_url": ""
+      },
+      {
+        "name": "Pablo Crain",
+        "title": "Country Leader, Mexico",
+        "gender": "male",
+        "img_url": ""
+      }
+    ]
+  },
+  {
+    "area": "af",
+    "leaders": [
+      {
+        "name": "Mr. Hassan El Shabrawishi",
+        "title": "Strategic Development Officer for Africa",
+        "gender": "male",
+        "img_url": ""
+      }
+    ]
+  },
+  {
+    "area": "oc",
+    "leaders": []
+  }
+]

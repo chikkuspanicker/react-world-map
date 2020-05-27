@@ -1,17 +1,20 @@
 h1 {
-  color: #3032c1;
+  color: #00008f;
   text-align: center;
 }
 .map-img {
   width: 100%;
   height: 400px;
 }
+a {
+  color: #00008f;
+}
 .map-unselected {
   fill: #dcd8d8;
   cursor: pointer;
 }
 .map-selected {
-  fill: #4975ba;
+  fill: #00008f;
   cursor: pointer;
 }
 
@@ -26,4 +29,8 @@ h1 {
 
 .list-group-item h5 {
   margin-bottom: 0.2rem;
+}
+
+.card-title {
+  margin-bottom: 0;
 }
