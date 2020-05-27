@@ -19,27 +19,27 @@ window.addEventListener('WorldMapClicked', (e) => {
   switch (e.detail.clickedState) {
     case 'na':
       document.getElementById("NA").classList.add('map-selected');
-      document.getElementById('leadership-header').innerHTML = 'North America(NA)'
+      document.getElementById('leadership-header').innerText = 'Leadership in North America(NA)'
       break;
     case 'as':
       document.getElementById("AS").classList.add('map-selected');
-      document.getElementById('leadership-header').innerHTML = 'Asia Pacific(AP)'
+      document.getElementById('leadership-header').innerText = 'Leadership in Asia Pacific(AP)'
       break;
     case 'af':
       document.getElementById("AF").classList.add('map-selected');
-      document.getElementById('leadership-header').innerHTML = 'Africa(AF)'
+      document.getElementById('leadership-header').innerText = 'Leadership in Africa(AF)'
       break;
     case 'sa':
       document.getElementById("SA").classList.add('map-selected');
-      document.getElementById('leadership-header').innerHTML = 'South America(SA)'
+      document.getElementById('leadership-header').innerText = 'Leadership in South America(SA)'
       break;
     case 'eu':
       document.getElementById("EU").classList.add('map-selected');
-      document.getElementById('leadership-header').innerHTML = 'Europe(EU)'
+      document.getElementById('leadership-header').innerText = 'Leadership in Europe(EU)'
       break;
     case 'oc':
       document.getElementById("OC").classList.add('map-selected');
-      document.getElementById('leadership-header').innerHTML = 'Asia Pacific(AP)'
+      document.getElementById('leadership-header').innerText = 'Leadership in Asia Pacific(AP)'
       break;
     default:
       break;

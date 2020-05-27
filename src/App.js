@@ -14,7 +14,7 @@ function App() {
       area.classList.remove('map-selected');
       area.classList.add('map-unselected');
     })
-    setClickedRegion(e.target.value);
+    // setClickedRegion(e.target.value);
     switch (e.target.value) {
       case 'North America(NA)':
         document.getElementById("NA").classList.add('map-selected');
@@ -43,7 +43,7 @@ function App() {
     <div className="App">
       <section className="container">
         <h1 className="mt-5">Who Is Who ?</h1>
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-6 offset-md-6">
             <select className="form-control mb-4" onChange={changeArea}>
               <option>--Select--</option>
@@ -55,7 +55,7 @@ function App() {
               <option>Oceania(OC)</option>
             </select>
           </div>
-        </div>
+        </div> */}
         <div className="col">
           <Map />
         </div>
