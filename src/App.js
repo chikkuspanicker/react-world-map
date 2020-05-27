@@ -7,6 +7,7 @@ import Modal from './Modal';
 function App() {
   const [clickedRegion, setClickedRegion] = useState('')
   let changeArea = (e) => {
+    return false;
     window.$('#exampleModal').modal({
       keyboard: false
     })
@@ -42,8 +43,8 @@ function App() {
   return (
     <div className="App">
       <section className="container">
-        <h1 className="mt-5">Who Is Who ?</h1>
-        {/* <div className="row">
+        <h1 className="mt-5">Who Is Who in AXA XL?</h1>
+        <div className="row">
           <div className="col-md-6 offset-md-6">
             <select className="form-control mb-4" onChange={changeArea}>
               <option>--Select--</option>
@@ -55,7 +56,7 @@ function App() {
               <option>Oceania(OC)</option>
             </select>
           </div>
-        </div> */}
+        </div>
         <div className="col">
           <Map />
         </div>
