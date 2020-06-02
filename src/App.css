@@ -1,5 +1,5 @@
 h1 {
-  color: #008f13;
+  color: #00008f;
   text-align: center;
 }
 .map-img {
@@ -7,14 +7,14 @@ h1 {
   height: 400px;
 }
 a {
-  color: #008f13;
+  color: #00008f;
 }
 .map-unselected {
   fill: #dcd8d8;
   cursor: pointer;
 }
 .map-selected {
-  fill: #008f13;
+  fill: #00008f;
   cursor: pointer;
 }
 
